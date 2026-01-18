@@ -14,5 +14,5 @@ add_executable(pentest
     core/logger.cpp
     modules/portscan.cpp
     modules/banner_grab.cpp
-
-)
+    modules/fuzzer.cpp
+    )

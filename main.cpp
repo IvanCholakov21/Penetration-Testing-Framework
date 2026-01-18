@@ -4,6 +4,7 @@
 
 std::shared_ptr<Module> make_banner_grab();
 std::shared_ptr<Module> make_scan_port();
+std::shared_ptr<Module> make_fuzzer();
 
 int main(){
 
@@ -12,6 +13,7 @@ int main(){
 
     manager.registerModule(make_scan_port());
     manager.registerModule(make_banner_grab());
+    manager.registerModule(make_fuzzer());
 
     std::cout << "Pentest Framework\n";
     std::cout << "Type list to see modules";

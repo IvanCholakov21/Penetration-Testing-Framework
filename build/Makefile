@@ -225,6 +225,30 @@ modules/banner_grab.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pentest.dir/build.make CMakeFiles/pentest.dir/modules/banner_grab.cpp.s
 .PHONY : modules/banner_grab.cpp.s
 
+modules/fuzzer.o: modules/fuzzer.cpp.o
+.PHONY : modules/fuzzer.o
+
+# target to build an object file
+modules/fuzzer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pentest.dir/build.make CMakeFiles/pentest.dir/modules/fuzzer.cpp.o
+.PHONY : modules/fuzzer.cpp.o
+
+modules/fuzzer.i: modules/fuzzer.cpp.i
+.PHONY : modules/fuzzer.i
+
+# target to preprocess a source file
+modules/fuzzer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pentest.dir/build.make CMakeFiles/pentest.dir/modules/fuzzer.cpp.i
+.PHONY : modules/fuzzer.cpp.i
+
+modules/fuzzer.s: modules/fuzzer.cpp.s
+.PHONY : modules/fuzzer.s
+
+# target to generate assembly for a file
+modules/fuzzer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pentest.dir/build.make CMakeFiles/pentest.dir/modules/fuzzer.cpp.s
+.PHONY : modules/fuzzer.cpp.s
+
 modules/portscan.o: modules/portscan.cpp.o
 .PHONY : modules/portscan.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... modules/banner_grab.o"
 	@echo "... modules/banner_grab.i"
 	@echo "... modules/banner_grab.s"
+	@echo "... modules/fuzzer.o"
+	@echo "... modules/fuzzer.i"
+	@echo "... modules/fuzzer.s"
 	@echo "... modules/portscan.o"
 	@echo "... modules/portscan.i"
 	@echo "... modules/portscan.s"
