@@ -1,3 +1,0 @@
-/home/ivan/Desktop/My_Projects/Penetration_testing_framework/Penetration-Testing-Framework/build/CMakeFiles/pentest.dir
-/home/ivan/Desktop/My_Projects/Penetration_testing_framework/Penetration-Testing-Framework/build/CMakeFiles/edit_cache.dir
-/home/ivan/Desktop/My_Projects/Penetration_testing_framework/Penetration-Testing-Framework/build/CMakeFiles/rebuild_cache.dir
