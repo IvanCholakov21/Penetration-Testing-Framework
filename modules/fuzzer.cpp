@@ -25,7 +25,7 @@ class fuzzer: public Module {
     }
 
     std::string description() const override{
-        return "This module throws invalid input and observes the behaviour";
+        return "This module sends invalid input and observes the behaviour";
     }
 
     void run(const std::string target_ip) override{
